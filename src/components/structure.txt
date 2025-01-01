@@ -1,0 +1,9 @@
+/  Daily Schedule
+/  Weekly Schedule
+/  Login / SignUp
+
+./  SkinCare
+.//  Food Suggestions
+./  Profile
+Notes
+Expense Manager

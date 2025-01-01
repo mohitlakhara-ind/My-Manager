@@ -1,0 +1,77 @@
+/* Calendar Container */
+.calendar-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.calendar-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Calendar Grid */
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.calendar-week {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Calendar Day */
+.calendar-day {
+  padding: 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.2s ease;
+}
+
+.calendar-day.active:hover {
+  background-color: #f0f0f0;
+}
+
+.calendar-day.inactive {
+  color: #ccc;
+}
+
+.calendar-day.sunday {
+  color: red; /* Highlight Sundays */
+}
+
+/* Leave Icon */
+.leave-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: red;
+}
+
+/* Date Details */
+.date-details {
+  margin-top: 20px;
+}
+
+.leave-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.leave-button.leave-active {
+  background-color: #f44336;
+}
+
+.schedule-input {
+  margin-top: 10px;
+  padding: 8px;
+  width: 80%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}

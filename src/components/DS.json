@@ -1,0 +1,36 @@
+{
+    Morning: [
+      { time: "5:00 AM", activity: "Wake up, freshen up", category: "Personal", icon: <AccessAlarm /> },
+      { time: "5:20 AM - 6:00 AM", activity: "Exercise (30-45 minutes)", category: "Work", icon: <FitnessCenter /> },
+      { time: "6:00 AM - 7:30 AM", activity: "Breakfast prep & breakfast", category: "Personal", icon: <Restaurant /> },
+      { time: "7:30 AM - 8:00 AM", activity: "Get ready for college", category: "Work", icon: <Book /> },
+    ],
+    CollegeTime: [
+      { time: "8:30 AM - 2:30 PM", activity: "College lectures/classes", category: "Study", icon: <Book /> }
+    ],
+    Afternoon: [
+      { time: "2:30 PM - 5:00 PM", activity: "Lunch prep & lunch & sleep part 1", category: "Personal", icon: <Restaurant /> }
+    ],
+    Evening: [
+      { time: "5:30 PM - 6:00 PM", activity: "College studies (assignments, revision)", category: "Study", icon: <Book /> },
+      { time: "6:30 PM - 7:30 PM", activity: "Coding practice (focus on building your skills)", category: "Work", icon: <FitnessCenter /> }
+    ],
+    Night: [
+      { time: "7:30 PM - 8:00 PM", activity: "Dinner prep & dinner", category: "Personal", icon: <Restaurant /> },
+      { time: "10:00 PM - 11:00 PM", activity: "Relax time (read, music, spend time with Avni 😉)", category: "Personal", icon: <Book /> },
+      { time: "11:00 PM - 12:30 AM", activity: "Study or coding session", category: "Work", icon: <Book /> }
+    ],
+    SleepTime: [
+      { time: "12:30 AM - 5:00 AM", activity: "Second sleep (4.5 hours)", category: "Personal", icon: <AccessAlarm /> }
+    ]
+}
+
+const schedule = [
+  { day: 'Monday', subject: 'Computer Graphics + Lab', time: '4:00 PM - 6:30 PM' },
+  { day: 'Tuesday', subject: 'Operating Systems + Lab', time: '4:00 PM - 6:30 PM' },
+  { day: 'Wednesday', subject: 'Computer Networks', time: '4:00 PM - 6:30 PM' },
+  { day: 'Thursday', subject: 'Organizational Behavior', time: '4:00 PM - 6:30 PM' },
+  { day: 'Friday', subject: 'Aptitude Building', time: '4:00 PM - 6:30 PM' },
+  { day: 'Saturday', subject: 'Indian Constitution', time: '4:00 PM - 6:30 PM' },
+  { day: 'Sunday', subject: 'Relax & Enjoy!', time: 'No Studies Today' }
+];

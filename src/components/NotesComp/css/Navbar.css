@@ -1,0 +1,93 @@
+/* Navbar.css */
+
+/* Sidebar styles */
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  background-color: #2c3e50; /* Deep navy blue */
+  padding-top: 60px;
+  transition: 0.3s ease-in-out;
+  z-index: 100;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-item {
+  text-align: center;
+}
+
+.sidebar-link {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.sidebar-link:hover {
+  background-color: #1abc9c; /* Bright turquoise */
+  color: white;
+}
+
+/* Open Button */
+.open-btn {
+  font-size: 30px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: transparent;
+  border: none;
+  color: #16a085; /* Light turquoise */
+  cursor: pointer;
+  z-index: 200;
+}
+
+.open-btn:hover {
+  color: #1abc9c;
+}
+
+/* Close Button */
+.close-btn {
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Overlay */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Darker overlay */
+  z-index: 50;
+}
+
+.overlay.open {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .open-btn {
+    left: 15px;
+  }
+}

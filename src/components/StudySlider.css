@@ -1,0 +1,72 @@
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 0;
+  position: relative;
+}
+
+.slider-button {
+  font-size: 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.slider-button:hover {
+  background-color: #0056b3;
+}
+
+.card-container {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 16px 0;
+  scrollbar-width: none; /* For Firefox */
+  flex: 1;
+  position: relative;
+}
+
+.card-container::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Edge */
+}
+
+.study-card {
+  min-width: 220px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.study-card.highlighted {
+  background-color: #f0f8ff;
+  transform: scale(1.1);
+  border: 2px solid #007bff;
+}
+
+.day-text {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.subject-text {
+  margin-bottom: 8px;
+  font-size: 1.1em;
+}
+
+.time-text {
+  color: #555;
+}

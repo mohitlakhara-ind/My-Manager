@@ -1,0 +1,52 @@
+/* App Title */
+.app-title {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    font-weight: bold;
+  }
+  
+  .app-subtitle {
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+  
+  /* Input Section */
+  .note-input {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+  }
+  
+  .note-input h4 {
+    color: #343a40;
+  }
+  
+  .btn-primary {
+    background-color: #5e72e4;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #324cdd;
+  }
+  
+  /* Notes Section */
+  .notes-display h4 {
+    color: #2c3e50;
+  }
+  
+  .note-card {
+    border: none;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .note-card .card-title {
+    color: #2c3e50;
+    font-weight: bold;
+  }
+  
+  .note-card .card-text {
+    color: #6c757d;
+  }
+  
