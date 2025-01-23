@@ -29,9 +29,9 @@ function App() {
         
         <Routes>
 
-           <Route path="/" element={<DailySchedule />} />
-          <Route path="/weekly-schedule" element={<StudySchedule />} />
-          <Route path="/skincare" element={<Skincare />} />
+           // <Route path="/" element={<DailySchedule />} />
+          // <Route path="/weekly-schedule" element={<StudySchedule />} />
+          // <Route path="/skincare" element={<Skincare />} />
           <Route path="/expense-manager" element={<BudgetHome />} />
           <Route path="/food-suggestions" element={<RecipeSearch />} />
           <Route path="/profile" element={<ProfilePage />} />
